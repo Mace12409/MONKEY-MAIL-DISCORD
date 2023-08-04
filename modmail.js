@@ -193,7 +193,7 @@ user.send({ embeds: [deletedEmbed] })
 
   let cancleButton = new MessageButton()
 .setStyle("SECONDARY")
-.setLabel('Cancle')
+.setLabel('Cancel')
 .setCustomId('cancle_mail')
 .setEmoji(`${options.wrongEmoji}` || '❌')
 
